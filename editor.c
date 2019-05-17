@@ -308,7 +308,6 @@ void
 edit_rename()
 {
 	char *newname = 0x0;
-	char *oldname = filename;
 	size_t len = 0;
 	ssize_t nread;
 	printf("Enter new filename: ");
